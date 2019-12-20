@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [LaunchpadBC_Tests]">
+  <test name="ProductionSanityTest-MOA(failed)">
+    <parameter name="bugflag" value="false"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="testDataFile" value="testdata_QA.xlsx"/>
+    <parameter name="exceptionflag" value="false"/>
+    <parameter name="userType" value="MOA"/>
+    <parameter name="environmentURL" value="http://10.1.1.105/launchpad/Login.aspx"/>
+    <classes>
+      <class name="launchpadBC.testcases.QA.VSTS_10339_QA">
+        <methods>
+          <include name="afterTest"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="setTestResult"/>
+          <include name="openbrowser"/>
+          <include name="testmodals" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- launchpadBC.testcases.QA.VSTS_10339_QA -->
+    </classes>
+  </test> <!-- ProductionSanityTest-MOA(failed) -->
+</suite> <!-- Failed suite [LaunchpadBC_Tests] -->

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="LaunchpadBC_Tests" verbose="1" parallel="false">
+<!-- 	<test name="ProductionSanityTest-Admin" preserve-order="true"> -->
+<!-- 		<parameter name="testDataFile" value="testdata_QA.xlsx" /> -->
+<!-- 		<parameter name="browser" value="chrome" /> -->
+<!-- 		<parameter name="environmentURL" -->
+<!-- 			value="http://10.1.1.136/launchpad/Login.aspx" /> -->
+<!-- 		<parameter name="bugflag" value="false" /> -->
+<!-- 		<parameter name="exceptionflag" value="false" /> -->
+<!-- 		<parameter name="userType" value="admin" /> -->
+<!-- 		<classes> -->
+<!-- 			<class name="launchpadBC.testcases.EndUser.VSTS_11418_EUser" /> -->
+<!-- 			<class name="launchpadBC.testcases.EndUser.VSTS_11419_EUser" /> -->
+<!-- 			<class name="launchpadBC.testcases.EndUser.VSTS_11420_EUser" /> -->
+<!-- 			<class name="launchpadBC.testcases.EndUser.VSTS_11421_EUser" /> -->
+<!-- 			<class name="launchpadBC.testcases.EndUser.VSTS_11422_EUser" /> -->
+<!-- 			<class name="launchpadBC.testcases.EndUser.VSTS_11426_EUser" /> -->
+<!-- 			<class name="launchpadBC.testcases.EndUser.VSTS_11423_EUser" /> -->
+<!-- 			<class name="launchpadBC.testcases.EndUser.VSTS_11424_EUser" /> -->
+<!-- 			<class name="launchpadBC.testcases.EndUser.VSTS_11425_EUser" /> -->
+<!-- 			<class name="launchpadBC.testcases.EndUser.VSTS_11663_EUser" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	<test name="ProductionSanityTest-MOA" preserve-order="true">
+		<parameter name="testDataFile" value="testdata_QA.xlsx" />
+		<parameter name="browser" value="chrome" />
+<!-- 		<parameter name="environmentURL" -->
+<!-- 			value="http://10.1.1.136/launchpad/Login.aspx" /> -->
+					<parameter name="environmentURL"
+			value="http://10.1.1.105/launchpad/Login.aspx" />
+		<parameter name="bugflag" value="false" />
+		<parameter name="exceptionflag" value="false" />
+		<parameter name="userType" value="MOA" />
+		<classes>
+			<class name="launchpadBC.testcases.QA.VSTS_11427_QA" />
+			<class name="launchpadBC.testcases.QA.VSTS_10339_QA" />
+<!-- 			<class name="launchpadBC.testcases.QA.VSTS_11436_QA" /> -->
+<!-- 			<class name="launchpadBC.testcases.QA.VSTS_10324_QA" /> -->
+<!-- 			<class name="launchpadBC.testcases.QA.VSTS_11432_QA" /> -->
+<!-- 			<class name="launchpadBC.testcases.QA.VSTS_10318_QA" /> -->
+<!-- 			<class name="launchpadBC.testcases.QA.VSTS_11439_QA" /> -->
+<!-- 			<class name="launchpadBC.testcases.QA.VSTS_10326_QA" /> -->
+<!-- 			<class name="launchpadBC.testcases.QA.VSTS_11434_QA" /> -->
+<!-- 			<class name="launchpadBC.testcases.QA.VSTS_11433_QA" /> -->
+<!-- 			<class name="launchpadBC.testcases.QA.VSTS_11773_QA" /> -->
+		</classes>
+	</test>
+</suite>
+
+

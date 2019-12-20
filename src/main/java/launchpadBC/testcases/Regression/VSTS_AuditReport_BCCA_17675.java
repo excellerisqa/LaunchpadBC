@@ -1,0 +1,127 @@
+package launchpadBC.testcases.Regression;
+
+import org.openqa.selenium.JavascriptExecutor;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+import launchpadBC.objects.BC_MainPage;
+import launchpadBC.objects.BC_UserEntry;
+import launchpadBC.objects.BC_UserEntryCreation;
+import utils.CommonFunctions;
+import utils.ObjectHelper;
+import utils.XLHandler;
+
+public class VSTS_AuditReport_BCCA_17675 extends BaseClass_Regression {
+
+	private static final Boolean False = null;
+
+	@Test(description = "TEST ID : VSTS_AuditReport_BCCA_17675")
+	@Parameters({ "bugflag", "exceptionflag" })
+	public void CreateMOAUser(boolean bugflag, boolean exceptionflag) throws Exception {
+		boolean exceptionError = false;
+
+		try {
+			ObjectHelper.test = ObjectHelper.reports.createTest("VSTS_17675");
+			BaseClass_Regression.bh.getAllSteps(12295);
+
+			int counter = 21;
+			while (counter < 29) {
+
+				CommonFunctions.waitForVisiblity(BC_MainPage.userEntryLink, 20);
+
+				JavascriptExecutor js = (JavascriptExecutor) ObjectHelper.driver;
+				js.executeScript("arguments[0].click();", ObjectHelper.driver.findElement(BC_MainPage.userEntryLink));
+
+				Thread.sleep(2000);
+				ObjectHelper.driver.switchTo().frame("ifSPAdmin");
+
+				Thread.sleep(2000);
+
+				CommonFunctions.clickUsingJavaExecutor(ObjectHelper.driver.findElement(BC_UserEntry.newButton));
+				CommonFunctions.waitForVisiblity(BC_UserEntryCreation.userAttributeLink, 20);
+
+				String[] rowUserData = XLHandler.readexcel(3, 1, testDataFileName); // get testdata from sheet
+				BC_UserEntryCreation.FillUserInformation(rowUserData);
+
+				CommonFunctions.clickUsingJavaExecutor(BC_UserEntryCreation.userProfilesLink);
+				Thread.sleep(2000);
+
+				// String[] rowProviderData = XLHandler.readexcel(3, 2, testDataFileName); //
+				// get testdata from sheet
+				String[] rowProviderData = XLHandler.readexcel(3, counter, testDataFileName); // get testdata from sheet
+				BC_UserEntryCreation.FillUserProfile(rowProviderData);
+
+				// Click Add button to add profile
+				CommonFunctions.clickUsingJavaExecutor(BC_UserEntryCreation.userProfileAddButton);
+				Thread.sleep(2000);
+
+				CommonFunctions.clickUsingJavaExecutor(BC_UserEntryCreation.userProvidersLink);
+
+				// String[] rowDataProvider = XLHandler.readexcel(2, 2, "testdata2.xlsx"); //
+				// get testdata from sheet
+				BC_UserEntryCreation.FillUserProvider(rowProviderData);
+
+				CommonFunctions.clickUsingJavaExecutor(BC_UserEntryCreation.userProviderAddButton);
+
+				// Click Save button to save user
+				CommonFunctions.clickUsingJavaExecutor(BC_UserEntryCreation.userSaveButton);
+
+				String saveConfirmedinfo = ObjectHelper.driver.switchTo().alert().getText();
+				Boolean isFound = False;
+				isFound = saveConfirmedinfo.contains("The user has been saved successfully"); // true
+
+				// String message = ObjectHelper.driver.switchTo().alert().getText();
+
+				if (isFound) {
+					ObjectHelper.driver.switchTo().alert().accept();
+
+				} else {
+					BaseClass_Regression.bh.addexpected(4);
+				}
+				Thread.sleep(2000);
+				// ObjectHelper.driver.switchTo().frame("ifSPAdmin");
+				ObjectHelper.driver.switchTo().defaultContent();
+				// System.out.println(userEntryCreation.userID.getText());
+
+				// String userId = message.substring(39, 48); // Thread.sleep(5000); // String
+				// userId = userEntryCreation.userID.getText();
+
+				/*
+				 * String userId = message.substring(39, 48); // Thread.sleep(5000); // String
+				 * userId = userEntryCreation.userID.getText();
+				 * 
+				 * 
+				 * ObjectHelper.driver.switchTo().defaultContent();
+				 * 
+				 * CommonFunctions.waitForVisiblity(BC_MainPage.userEntryLink, 20);
+				 * Thread.sleep(5000);
+				 * 
+				 * JavascriptExecutor js2 = (JavascriptExecutor) ObjectHelper.driver;
+				 * js2.executeScript("arguments[0].click();",
+				 * ObjectHelper.driver.findElement(BC_MainPage.userEntryLink));
+				 * 
+				 * Thread.sleep(2000); ObjectHelper.driver.switchTo().frame("ifSPAdmin");
+				 * 
+				 * ObjectHelper.driver.findElement(BC_UserEntry.userid_txt).sendKeys(userId);
+				 * Thread.sleep(2000);
+				 * 
+				 * js.executeScript("arguments[0].click();",
+				 * ObjectHelper.driver.findElement(BC_UserEntry.searchbtn)); Thread.sleep(5000);
+				 * 
+				 * if (!BC_UserEntry.verifySearchEntry() == true) {
+				 * BaseClass_Regression.bh.addexpected(13); }
+				 */
+
+				ObjectHelper.driver.switchTo().defaultContent();
+				counter++;
+			}
+
+		} catch (Exception e) {
+			ObjectHelper.test.fail(e);
+		}
+		BaseClass_Regression.bh.createbug(exceptionError, bugflag, exceptionflag, "VSTS_ID_12295",
+				BaseClass_Regression.AssignedTo, BaseClass_Regression.Iterationpath, BaseClass_Regression.CreatedBy,
+				BaseClass_Regression.Areapath, 1);
+	}
+
+}

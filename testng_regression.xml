@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="LaunchpadBC_Regression_Tests" verbose="1" parallel="false">
+	<test name="LaunchpadBC_Regression_Tests_Admin" preserve-order="true">
+		<parameter name="testDataFile" value="testdata2.xlsx" />
+		<!-- <parameter name="browser" value="ie" /> -->
+		<parameter name="browser" value="ie"/>
+		<parameter name="environmentURL" value="http://10.1.1.105/launchpad/Login.aspx" /> 
+	
+		<parameter name="bugflag" value="false" />
+		<parameter name="exceptionflag" value="false" />
+		<parameter name="userType" value="admin" />
+		<classes>
+		 <!--   <class name="launchpadBC.testcases.Regression.VSTS_CreateAdminUser_13824" />
+			<class name="launchpadBC.testcases.Regression.VSTS_CreateMOAUser_12295" />
+		    <class name="launchpadBC.testcases.Regression.VSTS_Admin_UserEntrySearchByID_11418" /> 
+		    <class name="launchpadBC.testcases.Regression.VSTS_Admin_PhysicianEntrySearchByID_11419" /> 
+		    <class name="launchpadBC.testcases.Regression.VSTS_CreatePhysician_12296" /> 	
+		    <class name="launchpadBC.testcases.Regression.VSTS_Admin_LocationEntrySearchByID_11420" />	
+		    <class name="launchpadBC.testcases.Regression.VSTS_Admin_TestCatalogueEntry_11421" />  
+		    <class name="launchpadBC.testcases.Regression.VSTS_Admin_StandardizedTestEntry_11422" /> 
+		    <class name="launchpadBC.testcases.Regression.VSTS_Admin_AuditReview_11423" />
+		    <class name="launchpadBC.testcases.Regression.VSTS_Admin_ExceptionManagement_11424" /> 
+		    <class name="launchpadBC.testcases.Regression.VSTS_Admin_MyEHealthPatientMapping_11425" />
+		    <class name="launchpadBC.testcases.Regression.VSTS_Admin_UploadHL7_11426" /> 
+		    <class name="launchpadBC.testcases.Regression.VSTS_Admin_StatusUpdate_11663" />  
+		    
+	   
+		    <class name="launchpadBC.testcases.Regression.VSTS_CreatePharmaNetUser_18209" /> 
+		   
+		    <class name="launchpadBC.testcases.Regression.VSTS_Admin_ModifyProfile_19324" /> 
+		    <class name="launchpadBC.testcases.Regression.VSTS_Admin_ModifyPIN_19325" /> 
+		    <class name="launchpadBC.testcases.Regression.VSTS_Admin_ChangePassword_11460" /> 
+		    <class name="launchpadBC.testcases.Regression.VSTS_Admin_ModifyInboxSetting_19440" /> 
+		   
+		    
+		      
+		    <class name="launchpadBC.testcases.Regression.VSTS_Admin_ModifyEmail_19326" />
+		    <class name="launchpadBC.testcases.Regression.VSTS_AuditReport_BCCA_17675" />  -->
+			  
+		</classes>
+	</test>
+ 	<test name="LaunchpadBC_Regression_Tests_MOA" preserve-order="true">
+		<parameter name="testDataFile" value="testdata2.xlsx" />
+		<parameter name="browser" value="ie" />
+		<parameter name="environmentURL" value="http://10.1.1.105/launchpad/Login.aspx" />
+		
+		<parameter name="bugflag" value="false" />
+		<parameter name="exceptionflag" value="false" />
+		<parameter name="userType" value="MOA" />
+		<classes>
+		
+		<class name="launchpadBC.testcases.Regression.VSTS_FilterByTest_11439" /> 
+		
+		  <!--    <class name="launchpadBC.testcases.Regression.VSTS_FilterByTestSection_11256" /> 
+	    	<class name="launchpadBC.testcases.Regression.VSTS_FilterByTest_11439" /> 
+	    	<class name="launchpadBC.testcases.Regression.VSTS_FilterByPatientName_11438" /> 
+			<class name="launchpadBC.testcases.Regression.VSTS_FilterByPatientPHN_15540" />
+		 
+			
+			<class name="launchpadBC.testcases.Regression.VSTS_FilterByLocation_11440" />
+			<class name="launchpadBC.testcases.Regression.VSTS_FilterByOtherReport_11441" />
+			<class name="launchpadBC.testcases.Regression.VSTS_FilterByAbnormal_11442" />
+			<class name="launchpadBC.testcases.Regression.VSTS_FilterByOrderedBy_11262" /> 
+			<class name="launchpadBC.testcases.Regression.VSTS_FilterByInboxFor_11443" />
+		
+		  	<class name="launchpadBC.testcases.Regression.VSTS_WebPullMessage_12300" />
+			
+			<class name="launchpadBC.testcases.Regression.VSTS_ViewIndividualReport_10318" />
+			<class name="launchpadBC.testcases.Regression.VSTS_UpdateStatusViewedToClearOverNight_11429" />
+			<class name="launchpadBC.testcases.Regression.VSTS_UpdateStatusClearOverNightToViewed_11430" />
+			
+			<class name="launchpadBC.testcases.Regression.VSTS_UpdateStatusToNew_11432" />
+			
+		    <class name="launchpadBC.testcases.Regression.VSTS_PrintAll_11434" /> 
+			<class name="launchpadBC.testcases.Regression.VSTS_UpdateStatusToNew_11432" />
+			<class name="launchpadBC.testcases.Regression.VSTS_UpdateStatusPrintToNew_11431" />
+			
+		    <class name="launchpadBC.testcases.Regression.VSTS_PrintSelection_11436" />
+			<class name="launchpadBC.testcases.Regression.VSTS_PrintFinal_11435" />	
+			<class name="launchpadBC.testcases.Regression.VSTS_PrintSummary_11437" />	
+			<class name="launchpadBC.testcases.Regression.VSTS_PrintFromReportView_10327" /> 
+			
+			<class name="launchpadBC.testcases.Regression.VSTS_SearchPatientByPHN_11427" />
+	        <class name="launchpadBC.testcases.Regression.VSTS_SearchPatientByName_11428" />
+	        <class name="launchpadBC.testcases.Regression.VSTS_SearchPatientByNameBirthday_16697" /> 
+	        <class name="launchpadBC.testcases.Regression.VSTS_SearchPatientByNameSex_16698" /> 
+	          
+	        <class name="launchpadBC.testcases.Regression.VSTS_UserViewPatientSummaryTab_10325" />
+	        <class name="launchpadBC.testcases.Regression.VSTS_UserViewReportFromHistory_11433" />
+	        <class name="launchpadBC.testcases.Regression.VSTS_UserResetToInbox_10339" />
+	      
+	        <class name="launchpadBC.testcases.Regression.VSTS_UserCreateCumulativeReportByAllVisit_11417" />
+	        <class name="launchpadBC.testcases.Regression.VSTS_UserCreateCumulativeReportByLastXVisit_10324" />
+	         <class name="launchpadBC.testcases.Regression.VSTS_UserCreateCumulativeReportByVisitDay_16834" /> 
+	        <class name="launchpadBC.testcases.Regression.VSTS_UserCreateCumulativeReportByVisitDate_16835" /> 
+	        	
+	       
+	        <class name="launchpadBC.testcases.Regression.VSTS_UserCreateMultiPatientReport_10326" /> 
+	        <class name="launchpadBC.testcases.Regression.VSTS_UserLoginWithConfidentialityAck_17811" />-->  
+
+		</classes>
+	</test> 
+</suite>
+
+

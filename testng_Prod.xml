@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="LaunchpadBC_Tests" verbose="1" parallel="false">
+	<test name="ProductionSanityTest-Admin" preserve-order="true">
+		<parameter name="testDataFile" value="testdata_Prod.xlsx" />
+		<parameter name="browser" value="ie" />
+		<parameter name="environmentURL"
+			value="https://auth.bc.excelleris.com/default.aspx" />
+		<parameter name="bugflag" value="false" />
+		<parameter name="exceptionflag" value="false" />
+		<parameter name="userType" value="admin" />
+		<classes>
+		   	<class name="launchpadBC.testcases.VSTS_11418" />
+			<class name="launchpadBC.testcases.VSTS_11419" />
+			<class name="launchpadBC.testcases.VSTS_11420" />
+			<class name="launchpadBC.testcases.VSTS_11421" />
+			<class name="launchpadBC.testcases.VSTS_11422" />
+			<class name="launchpadBC.testcases.VSTS_11426" />
+			<class name="launchpadBC.testcases.VSTS_11423" />
+			<class name="launchpadBC.testcases.VSTS_11425" />
+			<class name="launchpadBC.testcases.VSTS_11424" />
+			<class name="launchpadBC.testcases.VSTS_11663" />  
+			
+		</classes>
+	</test>
+	<test name="ProductionSanityTest-MOA" preserve-order="true">
+		<parameter name="testDataFile" value="testdata_Prod.xlsx" />
+		<parameter name="browser" value="ie" />
+		<parameter name="environmentURL"
+			value="https://auth.bc.excelleris.com/default.aspx" />
+		<parameter name="bugflag" value="false" />
+		<parameter name="exceptionflag" value="false" />
+		<parameter name="userType" value="MOA" />
+		<classes>
+		 	<class name="launchpadBC.testcases.VSTS_11427" />
+			<class name="launchpadBC.testcases.VSTS_10339" />
+			<class name="launchpadBC.testcases.VSTS_11436" />
+			<class name="launchpadBC.testcases.VSTS_10324" />
+			<class name="launchpadBC.testcases.VSTS_11432" />	
+			<class name="launchpadBC.testcases.VSTS_10318" />
+		<!-- 	<class name="launchpadBC.testcases.VSTS_11439" />  -->
+			<class name="launchpadBC.testcases.VSTS_10326" />
+			<class name="launchpadBC.testcases.VSTS_11434" />
+			<class name="launchpadBC.testcases.VSTS_11433" />
+			<class name="launchpadBC.testcases.VSTS_11773" />  
+			<class name="launchpadBC.testcases.VSTS_PullMessage_12300" /> 
+		
+			
+		</classes>
+	</test>
+</suite>
+
+

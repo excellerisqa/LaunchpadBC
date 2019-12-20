@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [LaunchpadBC_Regression_Tests]">
+  <test name="LaunchpadBC_Regression_Tests_Admin(failed)">
+    <parameter name="bugflag" value="false"/>
+    <parameter name="browser" value="ie"/>
+    <parameter name="testDataFile" value="testdata2.xlsx"/>
+    <parameter name="exceptionflag" value="false"/>
+    <parameter name="userType" value="admin"/>
+    <parameter name="environmentURL" value="http://10.1.1.105/launchpad/Login.aspx"/>
+    <classes>
+      <class name="launchpadBC.testcases.Regression.VSTS_Admin_LocationEntrySearchByID_11420">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="afterTest"/>
+          <include name="verifyLinksLocationEntryPage" invocation-numbers="0"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="setTestResult"/>
+        </methods>
+      </class> <!-- launchpadBC.testcases.Regression.VSTS_Admin_LocationEntrySearchByID_11420 -->
+      <class name="launchpadBC.testcases.Regression.VSTS_CreatePhysician_12296">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="CreatePhysician" invocation-numbers="0"/>
+          <include name="afterTest"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="setTestResult"/>
+        </methods>
+      </class> <!-- launchpadBC.testcases.Regression.VSTS_CreatePhysician_12296 -->
+    </classes>
+  </test> <!-- LaunchpadBC_Regression_Tests_Admin(failed) -->
+</suite> <!-- Failed suite [LaunchpadBC_Regression_Tests] -->

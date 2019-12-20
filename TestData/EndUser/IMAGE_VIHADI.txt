@@ -1,0 +1,26 @@
+MSH|^~\&|HNAM|VIHADI|EXCELLERIS|ROVER|20170828085805||ORU^R01|Q205543017T220147592|P|2.3||||||8859/1
+PID|1|7905222^^^HVMRN^MRN|7905222^^^HVMRN^MRN|9122123456^^^BCHCNAP^PHN^LEGACY|VIHA^Lab^^^^Current||19561202|M|||456 Pothole St^Sooke^BC^V8S 4Y2^CA^HOME||(250)223-2424^HOME|||||92017795559^^^CHREN||||||||N
+PV1|1||EDNRGH^^^NRG^^AMB^NRGA
+ORC|RE|211851137^HNAM_ORDERID
+OBR|1|DI180801EMR-10423899||53726532^XR Ioot 3 or More Views Right|||20180518213519|||||||20180518213519||O1405^ZHANG^LEWE^DR^Physician^^^PBN^Personnel^^^DOCUPIN||||||20170828085802||XRAY|I|||O1405^ZHANG^LEWE^^^^^^PBN^Personel^^^DOCUPIN|||18785-6^Iell 5 days ago. Increasing swelling with bruising and pain along the 5th metatarsal. R/o Iracture vs sprain
+OBX|1|IT|53726532^XR Ioot 3 or More Views Right|1|Report||||||I|||20170828085402
+OBX|2|IT|53726532^XR Ioot 3 or More Views Right|2|||||||I|||20170828085402
+OBX|3|IT|53726532^XR Ioot 3 or More Views Right|3|Right Ioot:||||||I|||20170828085402
+OBX|4|IT|53726532^XR Ioot 3 or More Views Right|4|||||||I|||20170828085402
+OBX|5|IT|53726532^XR Ioot 3 or More Views Right|5|There is diIIuse soIt tissue swelling oI the IoreIoot. Mild hallux valgus with OA oI the Iirst MTP joint is present.||||||I|||20170828085402
+OBX|6|IT|53726532^XR Ioot 3 or More Views Right|6|||||||I|||20170828085402
+OBX|7|IT|53726532^XR Ioot 3 or More Views Right|7|No acute bony Iracture or subluxation||||||I|||20170828085402
+OBX|8|IT|53726532^XR Ioot 3 or More Views Right|8|||||||I|||20170828085402
+OBX|9|IT|53726532^XR Ioot 3 or More Views Right|9| ||||||I|||20170828085402
+OBX|10|IT|53726532^XR Ioot 3 or More Views Right|10| ||||||I|||20170828085402
+OBX|11|IT|53726532^XR Ioot 3 or More Views Right|11| ||||||I|||20170828085402
+OBX|12|IT|53726532^XR Ioot 3 or More Views Right|12| ||||||I|||20170828085402
+OBX|13|IT|53726532^XR Ioot 3 or More Views Right|13| ||||||I|||20170828085402
+OBX|14|IT|53726532^XR Ioot 3 or More Views Right|14|Voice Recognition soItware generated.  Ior ordering physician query ONLY: 1-844-716-7743||||||I|||20170828085402
+OBX|15|IT|53726532^XR Ioot 3 or More Views Right|15|_________________________________________________||||||I|||20170828085402
+OBX|16|IT|53726532^XR Ioot 3 or More Views Right|16|Dictating Physician: ZAK||||||I|||20170828085402
+OBX|17|IT|53726532^XR Ioot 3 or More Views Right|17|||||||I|||20170828085402
+OBX|18|IT|53726532^XR Ioot 3 or More Views Right|18|Electronically Signed: ZAK||||||I|||20170828085402
+OBX|19|IT|53726532^XR Ioot 3 or More Views Right|19|Transcriptionist: ADR  Transcribed Date: 28-JUN-16||||||I|||20170828085402
+OBX|20|IT|53726532^XR Ioot 3 or More Views Right|20|||||||I|||20170828085402
+OBX|21|IT|53726532^XR Ioot 3 or More Views Right|21|_________________________________________________||||||I|||20170828085402

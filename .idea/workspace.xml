@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d09aff9c-8b28-4c99-ad00-5d31fd923c21" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1V2X3GsHCzHUOUHJ6yS6vbNKA3M" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Common" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/valaboina/Desktop/Projects/Regression_BC/Launchpad/LaunchpadBC/testng_QA.xml">
+    <configuration name="C:/Users/valaboina/Desktop/Projects/Regression_BC/Launchpad/LaunchpadBC/testng_EndUser_Sanity.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LaunchpadBC" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_EndUser_Sanity.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/valaboina/Desktop/Projects/Regression_BC/Launchpad/LaunchpadBC/testng_QA.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LaunchpadBC" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_QA.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/valaboina/Desktop/Projects/Regression_BC/Launchpad/LaunchpadBC/testng_QA.xml" />
+        <item itemvalue="TestNG.C:/Users/valaboina/Desktop/Projects/Regression_BC/Launchpad/LaunchpadBC/testng_EndUser_Sanity.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d09aff9c-8b28-4c99-ad00-5d31fd923c21" name="Default Changelist" comment="" />
+      <created>1576451962818</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576451962818</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="404" y="212" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1576638614127">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="404" y="212" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1576638614127" />
+    <state width="474" height="466" key="DebuggerActiveHint" timestamp="1576637959075">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="474" height="466" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1576637959075" />
+    <state x="421" y="98" key="FileChooserDialogImpl" timestamp="1576463965553">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="98" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1576463965553" />
+    <state width="1237" height="283" key="GridCell.Tab.0.bottom" timestamp="1576638662083">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="283" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1576638662083" />
+    <state width="1237" height="283" key="GridCell.Tab.0.center" timestamp="1576638662083">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="283" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1576638662083" />
+    <state width="1237" height="283" key="GridCell.Tab.0.left" timestamp="1576638662083">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="283" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1576638662083" />
+    <state width="1237" height="283" key="GridCell.Tab.0.right" timestamp="1576638662083">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="283" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1576638662083" />
+    <state width="1237" height="283" key="GridCell.Tab.1.bottom" timestamp="1576638677814">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="283" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1576638677814" />
+    <state width="1237" height="283" key="GridCell.Tab.1.center" timestamp="1576638677813">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="283" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1576638677813" />
+    <state width="1237" height="283" key="GridCell.Tab.1.left" timestamp="1576638677813">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="283" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1576638677813" />
+    <state width="1237" height="283" key="GridCell.Tab.1.right" timestamp="1576638677813">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="283" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1576638677813" />
+    <state x="371" y="102" width="538" height="485" key="extract.method.dialog" timestamp="1576462140356">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="102" width="538" height="485" key="extract.method.dialog/0.0.1280.680@0.0.1280.680" timestamp="1576462140356" />
+    <state x="484" y="0" width="665" height="680" key="find.popup" timestamp="1576464258869">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="484" y="0" width="665" height="680" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1576464258869" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/launchpadBC/testcases/BaseClass.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/launchpadBC/testcases/BaseClass.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/lifelabs/Common/0.0.1-SNAPSHOT/Common-0.0.1-SNAPSHOT.jar!/launchpadBC/objects/BC_LoginPage.class</url>
+          <line>23</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
